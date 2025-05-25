@@ -5,7 +5,7 @@
          version="6.0">
     <servlet>
         <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>servlet.RegisterServlet</servlet-class>
+        <servlet-class>com.example.event_booking_project_90.servlet.RegisterServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
@@ -13,7 +13,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>LogoutServlet</servlet-name>
-        <servlet-class>servlet.LogoutServlet</servlet-class>
+        <servlet-class>com.example.event_booking_project_90.servlet.LogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
@@ -21,7 +21,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>DeleteUserServlet</servlet-name>
-        <servlet-class>servlet.DeleteUserServlet</servlet-class>
+        <servlet-class>com.example.event_booking_project_90.servlet.DeleteUserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DeleteUserServlet</servlet-name>
@@ -29,7 +29,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>UpdateBookingStatusServlet</servlet-name>
-        <servlet-class>servlet.UpdateBookingStatusServlet</servlet-class>
+        <servlet-class>com.example.event_booking_project_90.servlet.UpdateBookingStatusServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UpdateBookingStatusServlet</servlet-name>

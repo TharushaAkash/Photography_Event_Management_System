@@ -1,9 +1,9 @@
-package servlet;
+package com.example.event_booking_project_90.servlet;
 
 import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import util.UserFileHandler;
+import com.example.event_booking_project_90.util.UserFileHandler;
 
 public class RegisterServlet extends HttpServlet {
     @Override

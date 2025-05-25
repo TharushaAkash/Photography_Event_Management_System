@@ -2,7 +2,7 @@ package com.example.event_booking_project_90.servlet;
 
 import com.example.event_booking_project_90.model.Photography;
 import com.example.event_booking_project_90.util.PhotoEventFileHandler;
-import util.BookingFileHandler;
+import com.example.event_booking_project_90.util.BookingFileHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -46,7 +46,7 @@ public class BookEventServlet extends HttpServlet {
             if (event != null) {
                 // Store booking using BookingFileHandler
                 // --- FIX: Use absolute path for BookingFileHandler ---
-                util.BookingFileHandler.addBooking(
+                BookingFileHandler.addBooking(
                     bookingId,
                     username,
                     eventId,

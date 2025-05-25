@@ -1,8 +1,8 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Map" %>
-<%@ page import="util.UserFileHandler" %>
-<%@ page import="util.BookingFileHandler" %>
+<%@ page import="com.example.event_booking_project_90.util.UserFileHandler" %>
+<%@ page import="com.example.event_booking_project_90.util.BookingFileHandler" %>
 <%@ page import="com.example.event_booking_project_90.model.Photography" %>
 <%@ page import="com.example.event_booking_project_90.util.PhotoEventFileHandler" %>
 <%@ page import="javax.servlet.http.HttpSession" %>

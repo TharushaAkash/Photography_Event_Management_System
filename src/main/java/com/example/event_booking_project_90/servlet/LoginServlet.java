@@ -1,10 +1,10 @@
-package servlet;
+package com.example.event_booking_project_90.servlet;
 
 import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.WebServlet;
-import util.UserFileHandler;
+import com.example.event_booking_project_90.util.UserFileHandler;
 
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {

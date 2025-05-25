@@ -1,9 +1,9 @@
-package servlet;
+package com.example.event_booking_project_90.servlet;
 
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import util.BookingFileHandler;
+import com.example.event_booking_project_90.util.BookingFileHandler;
 
 public class UpdateBookingStatusServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

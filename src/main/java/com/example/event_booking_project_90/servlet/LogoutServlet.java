@@ -1,4 +1,4 @@
-package servlet;
+package com.example.event_booking_project_90.servlet;
 
 import java.io.IOException;
 import javax.servlet.*;

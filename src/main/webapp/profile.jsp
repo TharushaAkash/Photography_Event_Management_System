@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.util.Map" %>
 <%@ page import="java.util.List" %>
-<%@ page import="util.UserFileHandler" %>
+<%@ page import="com.example.event_booking_project_90.util.UserFileHandler" %>
 <%@ page import="javax.servlet.http.HttpSession" %>
 <%
     HttpSession sessionObj = request.getSession(false);

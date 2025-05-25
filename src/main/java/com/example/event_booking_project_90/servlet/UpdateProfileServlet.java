@@ -1,6 +1,6 @@
-package servlet;
+package com.example.event_booking_project_90.servlet;
 
-import util.UserFileHandler;
+import com.example.event_booking_project_90.util.UserFileHandler;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
